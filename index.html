@@ -21,12 +21,14 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/media.css" />
 </head>
 
 <header class="header">
-  <div class="container header-container">
-    <nav class="nav-list">
+  <div class= "header-container container">
       <a class="logo-a">Web<span class="logo-b">Studio</span></a>
+
+    <nav class="nav-list">
       <ul class="header-list">
         <li class="item">
           <a href="./index.html" class="features-list current">Studio</a>
@@ -50,6 +52,11 @@
         </li>
       </ul>
     </address>
+    <button class="burger-btn" type="button">
+      <svg class="burger-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-heroicons"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
@@ -384,10 +391,9 @@
       <p class="form-paragraf">Subscribe</p>
 
       <form class="form-of-footer">
-        <label class="footer-label" for="footer-email">subskribe
 
           <input class="footer-input" type="email" id="footer-email" name="footer-email" placeholder="E-mail">
-        </label>
+       
 
         <button class="footer-button" type="submit"> Subscribe
           <svg class="footer-svg" width="24" height="24">
